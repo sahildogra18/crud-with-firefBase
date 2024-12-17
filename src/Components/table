@@ -1,0 +1,37 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+function Read() {
+  return (
+    <>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Club Name</th>
+            <th>age</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <button>Delete</button>
+            </td>
+            <td>
+              <button>edit</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </>
+  );
+}
+
+export default Read;
